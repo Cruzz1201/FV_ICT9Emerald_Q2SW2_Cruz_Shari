@@ -51,13 +51,12 @@
 
 <br><br>
 
-<div class="container bg-light text-dark">
-  
-</div>
-<h2>Office Schedule</h2>
+<div class="container text-dark">
+  <h2>Schedule:</h2>
+
 <div class="row justify-content-center">
-  <div class="col-lg-10">
-    <table class="table table-bordered table-light" style="width: 100%":>
+  <div class="col">
+    <table class="table table-bordered table-light table-stripped" style="width: 100%":>
 
       <thead>
         <tr class="text-center align-middle">
@@ -84,43 +83,31 @@
 
     </table>
   </div>
-</div>
 
-<br><br>
 
-<div class="container text-dark" id="contactus-form">
-  <p class="float-start display-4"></p>
-
-  <br><br>
-
-  <h2>Contact Us Form</h2>
-  <div class="col">
+<div class="col" style="color:rgb(52, 150, 236); background-color:whitesmoke; opacity: 0.8;">
+  <h3 style="text-align: center;">Contact us Form</h3>
+  <br>
     <div class="row">
-      <label for="fname">First Name</label>
+      <label for="fname"><b>First Name</b></label>
       <br>
       <input id="fname" name="fname" type="text" placeholder="Enter your First Name here..." class="form-comntrol" required>
     </div>
 
     <div class="row">
-      <label for="email">Email Address</label>
+      <label for="email"><b>Email Address</b></label>
       <br>
       <input id="emial" name="email" type="text" placeholder="Enter your Email Address here..." class="form-control" required>
     </div>
 
     <div class="row">
-      <label for="fname">First Name</label>
-      <br>
-      <input id="fname" name="fname" type="text" placeholder="Enter your First Name here..." class="form-control" required>
-    </div>
-
-    <div class="col">
-      <label for="number">Phone Number</label>
+      <label for="number"><b>Phone Number</b></label>
       <br>
       <input id="number" name="number" type="number" placeholder="Enter your Phone number here..." class="form-control" required>
     </div>
 
    <div class="row">
-        <label for="glevel">Grade Level</label>
+        <label for="glevel"><b>Grade Level</b></label>
      
         <select class="form-select" name="glevel">
           <option>Select...</option>
@@ -132,8 +119,8 @@
         </select>
       </div>
 
-    <div class="col">
-      <label for="message">What is your concern?</label>
+    <div class="row">
+      <label for="message"><b>What is your concern?</b></label>
       <br>
       <textarea id="message" rows="5" cols="50" name="message" type="text" placeholder="Enter here..." class="form-comntrol" required></textarea>
     </div>
@@ -143,7 +130,7 @@
   </div>
 
   <div class="d-grid gap-3">
-    <button type="button" class="btn btn-primary btn-block">Send</button>
+    <button type="button" class="btn btn-primary btn-sm">Send</button>
   </div>
 </div>
 
